@@ -98,6 +98,7 @@ export default async function handler(
 
             checkpassword
               ? res.status(200).json({
+                  AppName: "lostsaga.exe",
                   userID: userID.recordset[0].userID,
                   encodeKey: encodeKey.recordset[0].encodeKey,
                   serverID: serverID.recordset[0].serverID,
